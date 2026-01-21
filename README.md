@@ -2,10 +2,42 @@
 
 **Lavender Sweet** is an elegant and user-friendly e-commerce website for selling chocolate products, built with **HTML, CSS, PHP, and MySQL**.
 
-![Home Page](Home.png.png)
-
-
 ---
+
+## 🖼 Project Screenshots
+
+### 🏠 Home Page
+The main landing page of Lavender Sweet showcasing featured products and promotions.
+![Home Page](Home.png)
+
+### ℹ️ About Page
+Learn more about the brand and the story behind Lavender Sweet.
+![About Page](about-photo.jpg.png)
+
+### 🍫 Product Page
+View product details, images, prices, and add items to the cart.
+![Product Page](product-details.png.png)
+
+### 🛒 Cart Page
+Manage your selected products before checkout, view totals, and update quantities.
+![Cart Page](cart.png.png)
+
+### 💳 Checkout Page
+Enter your shipping information and complete the purchase process.
+![Checkout Page](checkout.png.png)
+
+### ✅ Order Success
+Confirmation page displayed after successfully placing an order.
+![Order Success](order_success.png.png)
+
+### 👤 Signup & Login
+User authentication pages for signing up or logging into the website.
+![Signup Page &  Login Page ](signup&login.png)
+
+
+### 🛠 Admin Control Panel
+Manage products, edit details, or remove items from the store.
+![Control Panel](Control Panel.png)
 
 ## 🗂 Project Structure
 
