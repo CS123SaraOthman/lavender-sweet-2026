@@ -1,0 +1,15 @@
+body {
+
+    background-color: #D8BFD8; 
+    margin: 0;
+    font-family: sans-serif;
+    direction: rtl;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+     font-family: 'Pacifico' ,sans-serif;
+
+}

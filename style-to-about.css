@@ -1,0 +1,157 @@
+#about-hero {
+    height: 40vh;
+    background: linear-gradient(to top, #D8BFD8,#4b00822e), url('Home.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+#about-hero h1 {
+    font-size: 3rem;
+    margin: 100;
+    font-weight: bold;
+}
+
+#about-hero p {
+    font-size: 1.3rem;
+    margin-top: 12px;
+}
+
+/* ABOUT CONTENT */
+#about-content {
+    width: 90%;
+    margin: 60px auto;
+    background: white;
+    border-radius: 25px;/* س و ق ت    */
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    padding: 40px;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* LEFT IMAGE */
+.about-img {
+    width: 35%;
+    border-radius: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    animation: slideInLeft 1s ease forwards;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/*cropping the image without distortion*/
+}
+
+/* TEXT RIGHT */
+.about-text {
+    width: 65%;
+    animation: fadeUp 1s ease 0.3s forwards;
+}
+
+.about-text h2 {
+    color: #4B0082;
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+}
+
+.about-text p, .about-text ul {
+    color: #5a3d72;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.about-text ul li {
+    margin-bottom: 8px;
+}
+
+/* Animations */
+@keyframes slideInLeft {
+    from { opacity: 0; transform: translateX(-30px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive adjustments for About page */
+@media (max-width: 900px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .about-img,
+    .about-text {
+        width: 100%;
+        animation: none;
+    }
+
+    .about-img img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+
+    .about-text h2 {
+        font-size: 20px;
+    }
+
+    .about-text p,
+    .about-text li {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .about-text ul {
+        padding-left: 0;
+        list-style-position: inside;
+    }
+
+    .about-cta {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+        font-size: 16px;
+    }
+
+    #about-hero {
+        padding: 40px 10px;
+    }
+
+    #about-hero h1 {
+        font-size: 28px;
+    }
+
+    #about-hero p {
+        font-size: 16px;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    #about-hero h1 {
+        font-size: 36px;
+    }
+
+    #about-hero p {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,72 @@
+/* ===== Body ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0e6ff;
+    margin: 20px;
+    color: #333;
+}
+
+/* ===== Headings ===== */
+h1, h2 {
+    text-align: center;
+    color: #673ab7;
+    margin-bottom: 20px;
+}
+
+/* ===== Paragraphs ===== */
+p {
+    text-align: center;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* ===== Table ===== */
+table {
+    width: 80%;
+    margin: 20px auto 40px auto;
+    border-collapse: collapse;
+    background: #fff; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #673ab7;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #fff; /* خلي كل الصفوف بيضاء */
+}
+
+tr:hover {
+    background-color: #f1e6ff; /* لون خفيف عند المرور */
+}
+
+/* ===== Buttons ===== */
+.button, .btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button.back {
+    background-color: #673ab7;
+}
+
+.button.back:hover {
+    opacity: 0.85;
+}

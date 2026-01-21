@@ -1,0 +1,36 @@
+.mn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: rgba(106, 5, 114, 0.25); 
+    /*RGBA means:
+
+RGB = Purple
+
+A = 0.25 ← This is the transparency level
+*/
+    position: fixed;    
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.mn a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.mn a:hover {
+    color: #c0a3d1;
+}
+
+@media (max-width: 500px) {
+    .mn {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
