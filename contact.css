@@ -1,0 +1,85 @@
+/* Contact Page Styling */
+#contact-page {
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+#contact-page h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #4B0082;
+}
+
+#contact-page p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #2e2e2e;
+}
+
+/* Form Styling */
+#contact-page form {
+    margin-top: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    align-items: center; 
+}
+
+#contact-page form input,
+#contact-page form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    resize: none;
+}
+
+#contact-page form button {
+    width: 100%; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+/* Send button */
+#contact-page form button[type="submit"] {
+    background-color: #c0a3d1;
+    color: white;
+}
+
+#contact-page form button[type="submit"]:hover {
+    background-color: #b290c9;
+}
+
+/* Reset button */
+#contact-page form button[type="reset"] {
+    background-color: #b290c9;
+    color: white;
+}
+
+#contact-page form button[type="reset"]:hover {
+    background-color: #a375b0;
+}
+/* Responsive */
+@media (max-width: 480px) {
+    #contact-page {
+        padding: 20px;
+    }
+
+    #contact-page h1 {
+        font-size: 22px;
+    }
+
+    #contact-page button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

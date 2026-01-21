@@ -1,0 +1,109 @@
+/* ===== Body ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0e6ff;
+    margin: 20px;
+    color: #333;
+}
+
+/* ===== Headings ===== */
+h1, h2 {
+    text-align: center;
+    color: #673ab7;
+    margin-bottom: 20px;
+}
+
+/* ===== Table ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #673ab7;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr {
+    background-color: #fff; /* كل الصفوف بيضاء */
+}
+
+tr:hover {
+    background-color: #e8d9ff; /* فقط عند التمرير */
+}
+
+/* ===== Buttons ===== */
+.button, .btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+/* Product Buttons */
+.button {
+    background-color: #4caf50; /* أخضر */
+}
+
+.button.delete {
+    background-color: #f44336; /* أحمر */
+}
+
+.button.edit {
+    background-color: #2196f3; /* أزرق */
+}
+
+/* Order Buttons */
+.btn.edit {
+    background-color: #673ab7; /* بنفسجي */
+}
+
+.btn.view {
+    background-color: #ff9800; /* برتقالي */
+}
+
+/* Button Hover Effects */
+.button:hover, .btn:hover {
+    opacity: 0.85;
+}
+
+/* ===== Select dropdown ===== */
+select {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* ===== Status Message ===== */
+.status-msg {
+    font-size: 12px;
+    color: green;
+    margin-left: 5px;
+}
+
+
+
+
+a img {
+     margin-left:auto;
+     margin-right: auto;
+     width: 150px;               
+    font-weight: 500;                       
+    transition: color 0.2s;                
+}
