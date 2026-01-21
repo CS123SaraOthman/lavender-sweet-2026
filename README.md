@@ -28,7 +28,7 @@ Enter your shipping information and complete the purchase process.
 
 ### ✅ Order Success
 Confirmation page displayed after successfully placing an order.
-![Order Success](order_success.png.png)
+![Order Success](order_success.png)
 
 ### 👤 Signup & Login
 User authentication pages for signing up or logging into the website.
