@@ -1,5 +1,7 @@
 # Lavender Sweet 🍫
 
+![Home Page](Home.png)
+
 **Lavender Sweet** is an elegant and user-friendly e-commerce website for selling chocolate products, built with **HTML, CSS, PHP, and MySQL**.
 
 ---
