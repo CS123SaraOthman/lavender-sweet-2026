@@ -8,7 +8,7 @@
 
 ### 🏠 Home Page
 The main landing page of Lavender Sweet showcasing featured products and promotions.
-![Home Page](Home.png)
+![Home Page](Home.png.png)
 
 ### ℹ️ About Page
 Learn more about the brand and the story behind Lavender Sweet.
