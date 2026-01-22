@@ -12,19 +12,19 @@ The main landing page of Lavender Sweet showcasing featured products and promoti
 
 ### ℹ️ About Page
 Learn more about the brand and the story behind Lavender Sweet.
-![About Page](about-photo.jpg.png)
+![About Page](about-photo.jpg)
 
 ### 🍫 Product Page
 View product details, images, prices, and add items to the cart.
-![Product Page](product-details.png.png)
+![Product Page](product-details.png)
 
 ### 🛒 Cart Page
 Manage your selected products before checkout, view totals, and update quantities.
-![Cart Page](cart.png.png)
+![Cart Page](cart.png)
 
 ### 💳 Checkout Page
 Enter your shipping information and complete the purchase process.
-![Checkout Page](checkout.png.png)
+![Checkout Page](checkout.png)
 
 ### ✅ Order Success
 Confirmation page displayed after successfully placing an order.
