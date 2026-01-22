@@ -70,7 +70,7 @@ Manage products, edit details, or remove items from the store.
 
 ## 🖋 Author
 
-**Sara Shehadi**
+**Sara Othman Shehadi**
 
 ---
 
